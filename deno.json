@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "build": "deno compile --no-check -o csscalc ./main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@types/node": "npm:@types/node@^22.10.2"
+  }
+}
